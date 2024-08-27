@@ -12,7 +12,7 @@ import os
 st.set_page_config(page_title="WhiskerWise - Know Your Pet Instantly", page_icon=":dog:")
 
 st.header("WhiskerWise")
-st.subheader("Know Your Pet")
+st.subheader("Know Your Pet Instantly")
 
 # Path to the saved model
 MODEL_PATH = "model.h5"
