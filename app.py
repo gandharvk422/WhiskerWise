@@ -55,6 +55,7 @@ try:
     )
     y_pred = cnn.predict(test_set)
     accuracy = accuracy_score(test_set.classes, np.round(y_pred)) * 100
+    st.sidebar.markdown("---")
     st.sidebar.markdown(f"# Model Accuracy")
     st.sidebar.markdown(f"## &emsp;_{accuracy:.2f}%_")
 except Exception as e:
