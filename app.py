@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 import os
 
 # Set the page configuration
-st.set_page_config(page_title="WhiskerWise - Know Your Pet Instantly", page_icon=":dog:")
+st.set_page_config(page_title="WhiskerWise - Know Your Pet Instantly", page_icon="🐾")
 
 st.header("WhiskerWise")
 st.subheader("Know Your Pet Instantly")
