@@ -32,7 +32,7 @@ except Exception as e:
 st.markdown("Now you can test the model by uploading an image")
 
 st.sidebar.markdown("# Upload a pic")
-file = st.sidebar.file_uploader(label="Upload a cat or dog pic", type=["png", "jpg", "jpeg"], accept_multiple_files=True)
+file = st.sidebar.file_uploader(label="Upload a cat or dog pic", type=["png", "jpg", "jpeg"])
 if file is not None:
     st.markdown("# Your uploaded pic")
     st.image(file)
